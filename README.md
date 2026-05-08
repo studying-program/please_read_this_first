@@ -1,62 +1,62 @@
-# リポジトリ命名規則
+# Repository Naming Convention
 
-## 概要
+## Overview
 
-このリポジトリは、プロジェクトの整理と管理を目的とした命名規則を定義します。
+This repository defines naming conventions for organizing and managing projects efficiently.
 
-## 命名規則
+## Naming Convention
 
-リポジトリ名は、以下の形式で命名します。
+Repository names should follow the format below:
 
-`大項目-中項目-日付`
+`main-category-subcategory-detail`
 
-### 大項目
+### Main Category
 
-プロジェクトの種類を表します。
+Represents the type of project.
 
-* `web_app`: Webアプリケーション
-* `local_app`: ローカルアプリケーション
-* `test`: テスト
-* `learn`: 学習
-* `template`: 雛形
-* `document`: ドキュメント
-* `design`: デザインデータ
+* `web_app`: Web application
+* `local_app`: Local application
+* `test`: Testing
+* `learn`: Learning materials
+* `template`: Template
+* `document`: Documentation
+* `design`: Design assets
 
-### 中項目
+### Subcategory
 
-プロジェクトの具体的な内容を表します。
+Represents the specific content or purpose of the project.
 
-* 例:
-    * `web_app-ecサイト`: ECサイトのWebアプリケーション
-    * `local_app-画像処理ツール`: 画像処理ツール
-    * `test-単体テスト`: 単体テスト
-    * `learn-python入門`: Python入門の学習
-    * `document-仕様書`: プロジェクトの仕様書
-    * `design-ワイヤーフレーム`: デザインのワイヤーフレーム
+* Examples:
+    * `web_app-ec_site`: E-commerce web application
+    * `local_app-image_processing_tool`: Image processing tool
+    * `test-unit_test`: Unit testing
+    * `learn-python_basics`: Python beginner learning
+    * `document-specification`: Project specification document
+    * `design-wireframe`: Design wireframe
 
-### 日付
+### Detail
 
-リポジトリ作成日または最終更新日をYYYYMMDD形式で表します。
+Represents the repository creation date or last updated date in `YYYYMMDD` format.
 
-* 例: `20231027`
+* Example: `20231027`
 
-## 例
+## Examples
 
-* `web_app-ecサイト-20231027`
-* `local_app-画像処理ツール-20231026`
-* `document-仕様書-20231025`
+* `web_app-ec_site-20231027`
+* `local_app-image_processing_tool-20231026`
+* `document-specification-20231025`
 
-## 補足
+## Notes
 
-* リポジトリの可視性（パブリックまたはプライベート）は、プロジェクトの性質に応じて適切に設定してください。
-* セキュリティに関する考慮事項は、必要に応じてREADMEファイルまたは別途ドキュメントに記述してください。
-* 各リポジトリには、READMEファイルを作成し、リポジトリの内容、目的、使用方法などを記述してください。
-* 命名規則はチーム全体で共有し、一貫性を保つようにしてください。
-* 必要に応じて、タイムスタンプを日付に追加することも検討してください。例：`20231027_153000`
+* Set the repository visibility (public or private) appropriately based on the nature of the project.
+* Security considerations should be documented in the README file or separate documentation if necessary.
+* Each repository should include a README file describing the repository content, purpose, and usage instructions.
+* Share and maintain the naming convention consistently across the entire team.
+* If necessary, consider adding a timestamp to the date. Example: `20231027_153000`
 
-## 変更履歴
+## Revision History
 
-* 20231027: 初版作成
-* 20231028: 中項目の具体例を追加
-* 20231028: 大項目にdocument,designを追加
-* 20231029: タイムスタンプに関する補足を追加
+* 20231027: Initial version created
+* 20231028: Added specific examples for subcategories
+* 20231028: Added `document` and `design` to main categories
+* 20231029: Added notes regarding timestamps
